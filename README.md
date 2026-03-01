@@ -1,18 +1,41 @@
-## Getting Started
+# 📝 Console-Based To-Do List (Java)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A simple console-based To-Do List application built using Java.  
+This program allows users to manage their daily tasks directly from the terminal.
 
-## Folder Structure
+## 🚀 Features
 
-The workspace contains two folders by default, where:
+- Add new tasks
+- View all tasks
+- Mark tasks as completed
+- Delete tasks
+- Simple and easy-to-use menu system
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 🛠️ Technologies Used
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Java
+- Console / Terminal
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## ▶️ How to Run
 
-## Dependency Management
+1. Make sure Java is installed on your system.
+2. Open terminal or command prompt.
+3. Navigate to the project folder.
+4. Compile the program:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+   javac TodoList.java
+
+5. Run the program:
+
+   java TodoList
+
+## 📂 Project Structure
+
+- `TodoList.java` – Main Java file containing the program logic
+
+## 📌 Future Improvements
+
+- Save tasks to a file
+- Add task priorities
+- Add due dates
+- Improve user interface
